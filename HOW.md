@@ -129,4 +129,4 @@ php artisan db:seed --class=ProductSeeder
 #### 6. User Controller
 `git push -u origin master` 
 #### 7. layouts app
-#### 8. Product Controller 
+#### 8. home blade 
