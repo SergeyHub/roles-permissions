@@ -126,5 +126,7 @@ php artisan db:seed --class=ProductSeeder
 'role_or_permission' => \Spatie\Permission\Middlewares\RoleOrPermissionMiddleware::class,
 ```
 
-#### 6. Home User Role Controller
-#### 7. Views 
+#### 6. User Controller
+`git push -u origin master` 
+#### 7. Home Controller
+#### 8. Product Controller 
