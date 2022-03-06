@@ -102,9 +102,6 @@ php artisan migrate
 $table->string('name');
 $table->text('detail');
 ```
-`php artisan migrate:refresh`  
-
-#### 5. Product Model Add Middleware
 
 **app/Models/Product.php**
 ```
@@ -112,6 +109,16 @@ protected $fillable = [
     'name', 'detail'
 ];
 ```
+`php artisan migrate:refresh`  
+#### 4. Product Factory Seeder
+```
+php artisan make:factory ProductFactory
+php artisan make:factory ProductFactory --model=Product
+php artisan make:seeder ProductSeeder
+php artisan db:seed --class=ProductSeeder
+```
+#### 5. Add Middleware
+
 **app/Http/Kernel.php**
 ```
 'role' => \Spatie\Permission\Middlewares\RoleMiddleware::class,
