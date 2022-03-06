@@ -131,3 +131,4 @@ php artisan db:seed --class=ProductSeeder
 #### 7. layouts app
 #### 8. home blade 
 #### 9. role controller 
+#### 10. Product veiws
