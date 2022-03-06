@@ -62,6 +62,7 @@ DB_PASSWORD=123456
 ##### 1.3 Migration
 
 `php artisan migrate`  
+`php artisan migrate:fresh --seed`
 
 ##### 1.4 Version
 `npm -v`  
