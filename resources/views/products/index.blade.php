@@ -58,5 +58,4 @@
     {!! $products->links() !!}
 
 
-
 @endsection
